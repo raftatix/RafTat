@@ -1,0 +1,601 @@
+/* 
+font-family: 'Lato', sans serif;
+font-family: 'Quintessential', cursive; 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+}
+
+header video {
+  position: fixed;
+  z-index: -1;
+}
+
+header h1,
+header h2 {
+  position: absolute;
+  font-family: "Quintessential", cursive;
+  font-size: 30px;
+  color: #eee;
+  letter-spacing: 2px;
+  top: 15%;
+  left: 8%;
+}
+
+header h2 {
+  top: 25%;
+  font-size: 20px;
+}
+
+header button {
+  outline: none;
+}
+
+header button a {
+  text-decoration: none;
+  color: #eee;
+}
+
+header button a:hover {
+  color: #444;
+}
+
+header .portfolio {
+  position: absolute;
+  bottom: 15%;
+  right: 10%;
+  background-color: transparent;
+  border: 4px solid #fff;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "lato", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+
+/* HEADER @media */
+
+@media (min-width: 533px) and (orientation: landscape) {
+  header h2 {
+    top: 30%;
+  }
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+  header h1 {
+    font-size: 70px;
+  }
+
+  header h2,
+  header .portfolio {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  header h1 {
+    font-size: 50px;
+  }
+
+  header h2,
+  header .portfolio {
+    font-size: 40px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1024px) {
+  header .portfolio:hover {
+    background-color: #fff;
+    color: #222;
+  }
+}
+
+/* MAIN */
+
+main {
+  height: 100vh;
+  background-color: #33475c;
+  color: #eee;
+}
+
+main img {
+  display: none;
+}
+
+main h1 {
+  padding-top: 25px;
+  font-size: 40px;
+  text-align: center;
+}
+
+main p {
+  margin: 20px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/* MAIN @media */
+
+@media (min-width: 533px) and (orientation: landscape) {
+  main h1 {
+    padding-top: 10px;
+  }
+
+  main p {
+    margin: 16px;
+  }
+}
+
+@media (min-width: 360px) and (orientation: portrait) {
+  main p {
+    margin-top: 50px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 375px) and (orientation: portrait) {
+  main p {
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 667px) and (orientation: landscape) {
+  main p {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+  main h1 {
+    font-size: 60px;
+  }
+
+  main img {
+    display: block;
+    height: 40vh;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
+  main p {
+    margin-top: 30px;
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+@media (min-width: 812px) and (orientation: landscape) {
+  main {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 90%;
+  }
+
+  main h1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  main img {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    display: block;
+    height: 60vh;
+    float: left;
+    margin: 0 auto;
+  }
+
+  main p {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin-right: 30px;
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: portrait) {
+  main h1 {
+    font-size: 80px;
+  }
+
+  main img {
+    display: block;
+  }
+
+  main p {
+    font-size: 30px;
+    line-height: 50px;
+  }
+}
+
+@media (min-width: 1366px) and (orientation: landscape) {
+  main img {
+    margin-top: 30px;
+  }
+
+  main p {
+    padding-top: 30px;
+    font-size: 28px;
+    line-height: 46px;
+    margin-top: 0;
+  }
+}
+
+/* TECHNOLOGY */
+
+.technology {
+  height: 100vh;
+  background-image: url(/loga/office-865091_1920.jpg);
+  background-position: right center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #eee;
+}
+
+.technology h1 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.technology .features {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+}
+
+.technology .features .ico {
+  margin: 20px auto;
+  width: 90px;
+  background-color: rgba(167, 161, 161, 0.8);
+  float: left;
+  text-align: center;
+  padding: 15px;
+}
+
+.technology .features .ico img {
+  height: 10vh;
+}
+
+.technology .features .item7 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+/* TECHNOLOGY @media */
+
+@media (min-width: 533px) and (orientation: landscape) {
+  .technology h1 {
+    padding-top: 10px;
+  }
+
+  .technology .features .ico {
+    margin-top: 10px;
+    width: 80px;
+    padding: 10px;
+  }
+
+  .technology .features .ico img {
+    height: 12vh;
+  }
+}
+
+@media (min-width: 360px) and (orientation: portrait) {
+  .technology .features .ico {
+    margin-top: 60px;
+  }
+
+  .technology .features .ico img {
+    height: 8vh;
+  }
+}
+
+@media (min-width: 414px) and (orientation: portrait) {
+  .technology h1 {
+    font-size: 70px;
+  }
+
+  .technology .features .ico img {
+    height: 6vh;
+  }
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+  .technology .features .ico {
+    width: 190px;
+  }
+
+  .technology .features .ico img {
+    height: 12vh;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  .technology h1 {
+    font-size: 40px;
+  }
+
+  .technology .features .ico {
+    width: 200px;
+    margin-top: 40px;
+  }
+
+  .technology .features .ico img {
+    height: 16vh;
+  }
+}
+
+/* PROJECTS */
+
+.projects {
+  height: auto;
+  background-color: #111;
+}
+
+.projects h1 {
+  font-size: 25px;
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.projects .company div {
+  text-align: center;
+}
+
+.projects .company div a img {
+  width: 100%;
+}
+
+.projects .company .about {
+  color: #fff;
+  padding: 20px 20px;
+}
+
+.projects .company:nth-of-type(even) {
+  background-color: #0e79b2;
+}
+
+.projects .company:nth-of-type(odd) {
+  background-color: #33475c;
+}
+
+.projects .company .about h2 {
+  padding-bottom: 10px;
+  font-size: 24px;
+  border-bottom: 2px solid #eee;
+}
+
+.projects .company .about p {
+  padding: 20px;
+  line-height: 36px;
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  font-weight: 400;
+}
+
+/* PROJECTS @media */
+
+@media (min-width: 768px) and (orientation: portrait) {
+  .projects .company .about {
+    padding: 30px;
+  }
+
+  .projects .company .about p {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  .projects h1 {
+    font-size: 40px;
+  }
+
+  .projects .company .web,
+  .projects .company .about {
+    width: 50%;
+    float: left;
+  }
+
+  .projects .company .about {
+    padding: 0;
+  }
+
+  .projects .company .about p {
+    font-size: 16px;
+    padding: 10px 20px 0;
+    line-height: 26px;
+  }
+
+  .projects .company .web img {
+    display: block;
+  }
+
+  .projects .company:nth-of-type(even) .web {
+    float: right;
+  }
+
+  .projects .company .about h2 {
+    padding-top: 14px;
+  }
+}
+
+@media (min-width: 1366px) and (orientation: landscape) {
+  .projects .company .about h2 {
+    font-size: 30px;
+  }
+
+  .projects .company .about p {
+    font-size: 26px;
+    line-height: 38px;
+    padding: 12px 30px 0;
+  }
+}
+
+/* CONTACT */
+
+.contact {
+  height: 90vh;
+  background-color: #0e79b2;
+}
+
+.contact .boxmap .googlemap {
+  display: none;
+}
+
+.contact .contactinfo {
+  font-size: 18px;
+  color: #eee;
+  padding: 50px 40px;
+  line-height: 50px;
+}
+
+.contact .contactinfo a {
+  text-decoration: none;
+  color: #eee;
+  margin-left: 10px;
+}
+
+/* CONTACT @media */
+
+@media (min-width: 533px) and (orientation: landscape) {
+  .contact .contactinfo {
+    padding: 10px 110px;
+  }
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+  .contact .boxmap .googlemap {
+    display: block;
+    width: 100vw;
+    height: 50vh;
+  }
+
+  .contact .contactinfo {
+    font-size: 40px;
+    padding: 60px 100px;
+    line-height: 60px;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  .contact .boxmap .googlemap {
+    display: block;
+    height: 90vh;
+    width: 60vw;
+    float: left;
+    margin-right: 30px;
+  }
+
+  .contact .contactinfo {
+    font-size: 24px;
+    padding: 170px 0;
+  }
+
+  .contact .contactinfo h1 {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: portrait) {
+  .contact .contactinfo {
+    font-size: 50px;
+    padding: 30px 150px;
+    line-height: 100px;
+  }
+}
+
+@media (min-width: 1366px) and (orientation: landscape) {
+  .contact .contactinfo h1 {
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+
+  .contact .contactinfo a {
+    font-size: 30px;
+  }
+}
+
+/* FOOTER */
+
+footer {
+  height: 10vh;
+  background-color: #111;
+}
+
+footer p {
+  line-height: 10vh;
+  text-align: center;
+  color: #eee;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #eee;
+}
+
+/* FOOTER @media */
+
+@media (min-width: 768px) and (orientation: portrait) {
+  footer p {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  footer p {
+    font-size: 20px;
+  }
+}
+
+/* TOP BUTTON */
+
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 99;
+  font-size: 22px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background-color: #b6b6b6;
+  color: #222;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 20px;
+}
