@@ -296,19 +296,9 @@ main p {
 
 /* TECHNOLOGY @media */
 
-@media (min-width: 533px) and (orientation: landscape) {
-  .technology h1 {
-    padding-top: 10px;
-  }
-
+@media (min-width: 320px) and (orientation: portrait) {
   .technology .features .ico {
-    margin-top: 10px;
-    width: 80px;
-    padding: 10px;
-  }
-
-  .technology .features .ico img {
-    height: 12vh;
+    width: 100px;
   }
 }
 
@@ -324,11 +314,27 @@ main p {
 
 @media (min-width: 414px) and (orientation: portrait) {
   .technology h1 {
-    font-size: 70px;
+    font-size: 50px;
   }
 
   .technology .features .ico img {
     height: 6vh;
+  }
+}
+
+@media (min-width: 533px) and (orientation: landscape) {
+  .technology h1 {
+    padding-top: 10px;
+  }
+
+  .technology .features .ico {
+    margin-top: 10px;
+    width: 80px;
+    padding: 10px;
+  }
+
+  .technology .features .ico img {
+    height: 12vh;
   }
 }
 
@@ -579,23 +585,4 @@ footer p a {
   footer p {
     font-size: 20px;
   }
-}
-
-/* TOP BUTTON */
-
-#topBtn {
-  display: none;
-  position: fixed;
-  bottom: 50px;
-  right: 50px;
-  z-index: 99;
-  font-size: 22px;
-  font-weight: 500;
-  border: none;
-  outline: none;
-  background-color: #b6b6b6;
-  color: #222;
-  cursor: pointer;
-  padding: 20px;
-  border-radius: 20px;
 }
