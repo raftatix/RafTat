@@ -1,5 +1,5 @@
 # 🍜 Hi I'm Rafal!
-🐍 I’m currently working on my own MMORPG game starting from console evolving to 3D models 🐍<br>🤝 Any help is appreciated<br>🌱 I’m currently learning Python, Linux, Docker and Devops<br>💬 Ask me anything!
+🐍 I'm currently working on my own MMORPG game in console, then I would like to evolve it to 2D models and then 3D 🐍<br>🤝 Any help is appreciated<br>🌱 I’m currently learning Python, Linux, Docker and Devops<br>💬 Ask me anything!
 
 
 ## 🌐 Socials:
