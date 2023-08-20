@@ -3,7 +3,7 @@
 
 
 ## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/rafaltatun/) 
+[![My Skills](https://skillicons.dev/icons?i=linkedin)]([https://skillicons.dev](https://linkedin.com/in/https://www.linkedin.com/in/rafaltatun/))]
 
 # 💻 Tech Stack:
 [![My Skills](https://skillicons.dev/icons?i=py,vscode,raspberrypi,docker,linux,vim,gitlab,bash,git,github,grafana,prometheus,jenkins,ansible)](https://skillicons.dev) 
