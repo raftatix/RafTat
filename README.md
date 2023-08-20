@@ -8,7 +8,7 @@
 </a>
 
 # 💻 Tech Stack:
-<p align="center">
+<p align="left">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=py,vscode,raspberrypi,docker,linux,vim,gitlab,bash,git,github,grafana,prometheus,jenkins,ansible" />
   </a>
