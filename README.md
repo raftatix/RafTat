@@ -1,5 +1,5 @@
 # 🍜 Hi I'm Rafal!
-🐍 I'm currently working on my own RPG game in console, then I would like to evolve it to 2D models and then 3D 🐍<br>🤝 Any help is appreciated<br>🌱 I’m currently learning Python, Linux, Docker and Devops<br>💬 Ask me anything!
+🐍 I'm currently working on my own RPG game in console, then I would like to evolve it to 2D models and then 3D 🐍<br>🤝 Any help is appreciated<br>🌱 I’m currently learning Packer, Vagrant and Kubernetes<br>💬 Ask me anything!
 
 
 ## 🌐 Socials:
