@@ -3,9 +3,14 @@
 
 
 ## 🌐 Socials:
-[![My Socials](https://skillicons.dev/icons?i=linkedin)]([[https://linkedin.com/in/rafaltatun])
+<a href="https://linkedin.com/in/rafaltatun">
+    <img src="https://skillicons.dev/icons?i=linkedin" />
+</a>
 
 # 💻 Tech Stack:
-[![My Skills](https://skillicons.dev/icons?i=py,vscode,raspberrypi,docker,linux,vim,gitlab,bash,git,github,grafana,prometheus,jenkins,ansible)](https://skillicons.dev) 
-
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,vscode,raspberrypi,docker,linux,vim,gitlab,bash,git,github,grafana,prometheus,jenkins,ansible" />
+  </a>
+</p>
 ---
